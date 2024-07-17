@@ -2,6 +2,6 @@
 AES CBC_256 encrypt &amp; decrypt in C
 
 # Compile & Execute
-gcc -c aes.c
-gcc -o aes aes.o -lcrypto
+gcc -c aes.c \
+gcc -o aes aes.o -lcrypto \
 ./aes
